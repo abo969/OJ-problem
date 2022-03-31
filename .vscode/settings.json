@@ -1,0 +1,31 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'DejaVu Sans Mono','Hack'",
+    "editor.fontSize": 14,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.iconTheme": "vscode-icons-mac",
+    "workbench.colorTheme": "Solarized Dark",
+    "files.exclude": {
+        "**/*.dSYM": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -g -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "c": "cd $dir && gcc -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    //"code-runner.clearPreviousOutput": true,
+    //"code-runner.saveAllFilesBeforeRun": false,
+    //"code-runner.saveFileBeforeRun": true,
+    //"code-runner.showExecutionMessage": true,
+    //"code-runner.preserveFocus": false,
+    //"code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "debug.onTaskErrors": "showErrors",
+    "window.zoomLevel": 0
+}

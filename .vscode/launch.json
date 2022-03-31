@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "C++ Debug",
+            "preLaunchTask": "g++ compile",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "environment": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "MIMode": "lldb",
+        }
+    ]
+}
