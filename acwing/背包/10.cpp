@@ -20,12 +20,11 @@ void input() {
         int p;      // 依赖的父节点的编号
         cin >> v[i] >> w[i] >> p;
         if (p == -1) root = i;
-        else //add(p, i);
-            e[p].push_back(i);
+        else e[p].push_back(i);
     }
 }
 
-// 分组背包
+// 有依赖的背包：分组背包
 void dfs(int u) {
     for (int i = 0; i < e[u].size(); i++) {     // 枚举物品组
         int c = e[u][i];                        // c为u的儿子节点
